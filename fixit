@@ -63,7 +63,58 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/37288d30c2e013a34e415fb35fffd2f7267ebd031c4380927485d7461708f810_Blue Button With Shadow_Hovered.png",
+          "name": "Blue Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/22930cdc6b25260eef3817f1687842974261b68c84ec2a13d7f32b1a2985240f_Blue Button With Shadow_Idle.png",
+          "name": "Blue Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/26efbc7581c47b884f5335aa7581999a75b3062aa24062a1a91955e334826d21_Blue Button With Shadow_Pressed.png",
+          "name": "Blue Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -76,10 +127,27 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/backbutton"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
