@@ -26,15 +26,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 257,
       "keepRatio": true,
       "layer": "",
       "name": "BlueButtonWithShadow",
       "persistentUuid": "06abce0d-7e3c-4f28-b4d0-572ddd258723",
-      "width": 0,
-      "x": 522,
-      "y": 243,
+      "width": 439,
+      "x": 443,
+      "y": 237,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,22 +175,11 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
             "BlueButtonWithShadow",
-            "",
-            "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
           ]
         }
       ],
